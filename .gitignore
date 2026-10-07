@@ -1,0 +1,25 @@
+# Local editor and OS files
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Generated output and deployment state
+/dist/
+.wrangler/
+
+# Internal working records
+/docs/internal/codex/
+
+# Agent instruction files at every directory level
+**/[Aa][Gg][Ee][Nn][Tt].[Mm][Dd]
+**/[Aa][Gg][Ee][Nn][Tt][Ss].[Mm][Dd]
